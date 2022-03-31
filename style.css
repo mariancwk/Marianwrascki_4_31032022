@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -867,7 +868,6 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -890,10 +890,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
-        overflow-x: hidden;
-        position: relative;
-    }
     h1,
     h2,
     h3,
