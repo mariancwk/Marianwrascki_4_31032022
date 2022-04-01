@@ -2009,11 +2009,35 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+#bloc-5-cta .row:nth-child(1){
+    flex-direction: column;
+}
+
+.bloc-md .row{
+display: flex;
+justify-content: center;
+}
+
+.bloc-md p:nth-child(1){
+font-size: 20px;
+width: 525px;
+line-height: 20px;
+font-family: system-ui;
+font-weight: 400;
+    }
+
+.bloc-md p:nth-child(1) span{
+    font-weight: lighter;
+    font-family: system-ui;
+        }
+
 
 .col-lg-1,
 .col-lg-10,
@@ -2288,6 +2312,8 @@ pre code {
     margin-left: 0
 }
 
+
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2306,6 +2332,14 @@ pre code {
     .col-sm-12 {
         width: 100%
     }
+    .col-sm-12.text-center:nth-child(1) {
+        width: 62%;
+    }
+    #bloc-4-portfolio h2 {
+        width: 76%;
+        margin: 0 auto;
+    }
+    
     .col-sm-11 {
         width: 91.66666667%
     }

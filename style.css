@@ -703,11 +703,14 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 25px;
 }
 
 h3 {
