@@ -272,6 +272,39 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.row {
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#bloc-5-cta .row:nth-child(1){
+    flex-direction: column;
+}
+.bloc-md .row{
+    display: flex;
+    justify-content: center;
+}
+.bloc-md p:nth-child(1){
+font-size: 20px;
+    width: 525px;
+    line-height: 20px;
+    font-family: system-ui;
+    font-weight: 400;
+    }
+
+.bloc-md p:nth-child(1) span{
+    font-weight: lighter;
+    font-family: system-ui;
+    }
+
+.col-sm-12.text-center:nth-child(1) {
+    width: 62%;
+}
+#bloc-4-portfolio h2 {
+    width: 76%;
+    margin: 0 auto;
+}
 
 .row-no-gutters {
     margin-right: 0;
