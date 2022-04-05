@@ -838,6 +838,9 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+.container_contact .col-sm-12 .text-center {
+    color: black!important;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
