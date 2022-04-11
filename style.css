@@ -19,14 +19,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
 
 .bloc {
     width: 100%;
@@ -502,9 +494,6 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
-.btn.pull-right {
-    margin: 0 0 5px 5px;
-}
 
 .btn-d,
 .btn-d:hover,
@@ -544,18 +533,6 @@ button {
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
     border-radius: 0;
-}
-
-.panel-rd {
-    border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
 }
 
 .form-control {
